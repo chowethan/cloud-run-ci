@@ -1,0 +1,18 @@
+{
+	"main": "src/index.mjs",
+	"scripts": {
+		"start": "npm run dev",
+		"dev": "npx functions-framework --target=trigger",
+		"lint": "eslint ."
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.20.0",
+		"eslint": "^9.20.1",
+		"eslint-config-prettier": "^10.0.1",
+		"globals": "^16.0.0",
+		"prettier": "^3.5.1"
+	},
+	"dependencies": {
+		"@google-cloud/functions-framework": "^4.0.0"
+	}
+}
